@@ -145,7 +145,7 @@ const Contact = () => {
                   onClick={handleSend}
                   className="w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent"
                 >
-                  Send Message
+                   <a href="mailto: arpitasawant2002@gmail.com">Send Message</a>
                 </button>
               </div>
               {errMsg && (
