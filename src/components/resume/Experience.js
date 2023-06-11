@@ -11,11 +11,11 @@ const Experience = () => {
     >
       <div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
+          <p className="text-sm text-designColor tracking-[4px]">2022 - 2023</p>
           <h2 className="text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
+          {/* <ResumeCard
             title="Sr. Software Engineer"
             subTitle="Google Out Tech - (2017 - Present)"
             result="USA"
@@ -32,7 +32,23 @@ const Experience = () => {
             subTitle="Nike - (2020 - 2011)"
             result="Oman"
             des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+          /> */}
+          <ResumeCard
+            title="Member Of Coder's Club"
+            subTitle="October 2022"
+            result="JSPM'S ICOER,Pune"
+            des="Learn and develop New Technologies.Organize Seminars and Bootcamps for Languages and Technologies"
           />
+          <ResumeCard
+            title="Web Developer Intern"
+            subTitle="March 2023-May 2023"
+            result="Flourisense,Pune"
+            des="
+            Flourisense is the India’s leading bespoke software development company, with a fully in-house 300+ team of 
+            expert software developers and technology professionals specialising in both Microsoft and the MEAN stack.Worked on
+             real-time project : Flourishive,Domain : Frontend development,Worked on Technologies : ReactJS,Tailwind CSS"
+          />
+          
         </div>
       </div>
       <div>
@@ -41,14 +57,14 @@ const Experience = () => {
           <h2 className="text-4xl font-bold">Trainer Experience</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
+          {/* <ResumeCard
             title="Gym Instructor"
             subTitle="Rainbow Gym Center (2015 - 2020)"
             result="DHAKA"
             des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
-          />
+          /> */}
           <ResumeCard
-            title="Web Developer and Instructor"
+            title="Web Developer"
             subTitle="SuperKing College (2010 - 2014)"
             result="CANADA"
             des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."

@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { contactform, loginimg, foodimg, landing, reactfood, Youtube } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -22,38 +22,43 @@ const Projects = () => {
           video-sharing platform YouTube using the React JavaScript library and Tailwind CSS framework. 
           This clone will allow users to browse, search, and watch videos, 
           as well as provide a familiar user interface that resembles the original YouTube."
-          src={projectOne}
+          src={Youtube}
         />
         <ProjectsCard
           title="House Of Taste"
           des="The Online Food Ordering Website is a web application developed using React, a popular JavaScript library 
           for building user interfaces. The website aims to provide a convenient and user-friendly platform for customers 
           to browse and order food from various restaurants online."
-          src={projectTwo}
+          src={reactfood}
         />
         <ProjectsCard
-          title=""
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
+          title="Landing Page"
+          des=" A landing page is a crucial component of any website, designed specifically to capture the attention and 
+          interest of visitors. It serves as the entry point to your website and aims to convert visitors into customers or leads.
+           When creating a landing page, the goal is to present information in a concise and visually appealing manner."
+          src={landing}
         />
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
+          title="Food Website"
+          des=" 
+The project aims to create a food website that showcases a variety of food items, 
+complete with visually appealing images, using HTML and CSS. The website 
+will serve as a platform to display a diverse range of delicious dishes, catering to different tastes and preferences."
+          src={foodimg}
         />
         <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
+          title="Login Page-PHP"
+          des="The login page project involves creating a secure login system using MySQL and PHP. The purpose of this project is to 
+          allow users to register for an account and subsequently log in to access restricted areas or personalized 
+          content on a website."
+          src={loginimg}
         />
         <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
+          title="Contact-Form"
+          des=" The project aims to create a contact form using HTML, CSS, and JavaScript. The contact 
+          form will provide a convenient and user-friendly way for visitors to get in touch with the website 
+          owner or administrator."
+          src={contactform}
         />
       </div>
     </section>

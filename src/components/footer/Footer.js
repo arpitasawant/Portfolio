@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import {  FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import {mylogo1} from "../../assets/index"
 
 const Footer = () => {
@@ -8,9 +8,9 @@ const Footer = () => {
       <div className="w-full h-full flex flex-col gap-8">
         <img className="w-32" src={mylogo1} alt="logo" />
         <div className="flex gap-4">
-          <span className="bannerIcon">
+          {/* <span className="bannerIcon">
             <FaFacebookF />
-          </span>
+          </span> */}
           <span className="bannerIcon">
             <FaTwitter />
           </span>

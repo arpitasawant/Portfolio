@@ -63,11 +63,11 @@ const Contact = () => {
                   {errMsg}
                 </p>
               )}
-              {successMsg && (
+              {/* {successMsg && (
                 <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">
                   {successMsg}
                 </p>
-              )}
+              )} */}
               <div className="w-full flex flex-col lgl:flex-row gap-10">
                 <div className="w-full lgl:w-1/2 flex flex-col gap-4">
                   <p className="text-sm text-gray-400 uppercase tracking-wide">
@@ -145,7 +145,8 @@ const Contact = () => {
                   onClick={handleSend}
                   className="w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent"
                 >
-                   <a href="mailto: arpitasawant2002@gmail.com">Send Message</a>
+                   {/* <a href="mailto:arpitasawant2002@gmail.com">Send Message</a> */}
+                   <a href="mailto:nileshtelang07n5@gmail.com">CONTACT ME</a>
                 </button>
               </div>
               {errMsg && (
