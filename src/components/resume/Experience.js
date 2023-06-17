@@ -53,8 +53,8 @@ const Experience = () => {
       </div>
       <div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
-          <h2 className="text-4xl font-bold">Trainer Experience</h2>
+          {/* <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
+          <h2 className="text-4xl font-bold">Trainer Experience</h2> */}
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           {/* <ResumeCard
@@ -63,7 +63,7 @@ const Experience = () => {
             result="DHAKA"
             des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
           /> */}
-          <ResumeCard
+          {/* <ResumeCard
             title="Web Developer"
             subTitle="SuperKing College (2010 - 2014)"
             result="CANADA"
@@ -74,7 +74,7 @@ const Experience = () => {
             subTitle="Kingstar Secondary School (2001 - 2010)"
             result="NEVADA"
             des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
-          />
+          /> */}
         </div>
       </div>
     </motion.div>

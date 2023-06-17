@@ -1,5 +1,8 @@
 import mylogo from "./images/mylogo.png";
 import bannerImg from "./images/bannerImg.png";
+// import TravelGuide from "./images/TravelGuide.png";
+import yt from "./images/projects/yt.png";
+import Travel from "./images/projects/travelGuide.png";
 import bann from "./images/bann.jpeg";
 import projectOne from "./images/projects/projectOne.jpg";
 import contactform from "./images/projects/contactform.png";
@@ -19,6 +22,8 @@ export {
   mylogo,
   bannerImg,
   bann,
+  yt,
+  Travel,
   loginimg,
   reactfood,
   foodimg,

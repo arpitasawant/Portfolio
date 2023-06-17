@@ -25,8 +25,8 @@ const Achievement = () => {
           <ResumeCard
             title="GTT Barclays"
             subTitle="Training on Aptitude and Soft Skills"
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            result="March-2023"
+            des="GTT Barclays is a leading training company dedicated to empowering BE students with the essential technical and soft skills required to excel in their careers."
           />
           {/* <ResumeCard
             title="Lorem ipsum dolor sit amet."
@@ -38,11 +38,11 @@ const Achievement = () => {
       </div>
       <div>
         <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2022 - 202345657 </p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
+          {/* <p className="text-sm text-designColor tracking-[4px]">2022 - 202345657 </p>
+          <h2 className="text-4xl font-bold">Job Experience</h2> */}
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-        <ResumeCard
+        {/* <ResumeCard
             title="Member Of Coder's Club"
             subTitle="October 2022"
             result="JSPM'S ICOER,Pune"
@@ -56,7 +56,7 @@ const Achievement = () => {
             Flourisense is the India’s leading bespoke software development company, with a fully in-house 300+ team of 
             expert software developers and technology professionals specialising in both Microsoft and the MEAN stack.Worked on
              real-time project : Flourishive,Domain : Frontend development,Worked on Technologies : ReactJS,Tailwind CSS"
-          />
+          /> */}
         </div>
       </div>
     </motion.div>
