@@ -1,4 +1,4 @@
-import mylogo1 from "./images/mylogo.png";
+import mylogo from "./images/mylogo.png";
 import bannerImg from "./images/bannerImg.png";
 import bann from "./images/bann.jpeg";
 import projectOne from "./images/projects/projectOne.jpg";
@@ -16,7 +16,7 @@ import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
 
 export {
-  mylogo1,
+  mylogo,
   bannerImg,
   bann,
   loginimg,
