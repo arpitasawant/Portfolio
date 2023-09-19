@@ -11,7 +11,7 @@ const Contact = () => {
   const [errMsg, setErrMsg] = useState("");
   const [successMsg, setSuccessMsg] = useState("");
 
-  // ======== Email Validation start here ==============
+  // ======== Email Validation start here ================
   const emailValidation = () => {
     return String(email)
       .toLocaleLowerCase()
