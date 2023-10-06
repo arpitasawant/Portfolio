@@ -1,5 +1,5 @@
 import React from 'react'
-
+//footer bottom
 const FooterBottom = () => {
   return (
     <div className="w-full py-10">
