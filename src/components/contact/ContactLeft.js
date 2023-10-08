@@ -2,7 +2,7 @@ import React from 'react'
 import {  FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { contactImg } from "../../assets/index";
 
-//left side
+
 
 const ContactLeft = () => {
   return (
